@@ -17,6 +17,9 @@
 		DC2F41D02AA5832E00B80C6D /* diaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2F41CF2AA5832E00B80C6D /* diaryUITests.swift */; };
 		DC2F41D22AA5832E00B80C6D /* diaryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2F41D12AA5832E00B80C6D /* diaryUITestsLaunchTests.swift */; };
 		DC2F41DF2AA5834000B80C6D /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = DC2F41DE2AA5834000B80C6D /* readme.md */; };
+		DC5CBC3E2AA588BA0010BDD8 /* DiaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5CBC3D2AA588BA0010BDD8 /* DiaryCell.swift */; };
+		DC5CBC402AA5890C0010BDD8 /* StarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5CBC3F2AA5890C0010BDD8 /* StarViewController.swift */; };
+		DC5CBC422AA58A9E0010BDD8 /* StarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5CBC412AA58A9E0010BDD8 /* StarCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		DC2F41CF2AA5832E00B80C6D /* diaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diaryUITests.swift; sourceTree = "<group>"; };
 		DC2F41D12AA5832E00B80C6D /* diaryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diaryUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DC2F41DE2AA5834000B80C6D /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = readme.md; path = "../swift-diary/readme.md"; sourceTree = "<group>"; };
+		DC5CBC3D2AA588BA0010BDD8 /* DiaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryCell.swift; sourceTree = "<group>"; };
+		DC5CBC3F2AA5890C0010BDD8 /* StarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarViewController.swift; sourceTree = "<group>"; };
+		DC5CBC412AA58A9E0010BDD8 /* StarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,9 @@
 				DC2F41B72AA5832E00B80C6D /* Assets.xcassets */,
 				DC2F41B92AA5832E00B80C6D /* LaunchScreen.storyboard */,
 				DC2F41BC2AA5832E00B80C6D /* Info.plist */,
+				DC5CBC3D2AA588BA0010BDD8 /* DiaryCell.swift */,
+				DC5CBC3F2AA5890C0010BDD8 /* StarViewController.swift */,
+				DC5CBC412AA58A9E0010BDD8 /* StarCell.swift */,
 			);
 			path = diary;
 			sourceTree = "<group>";
@@ -263,8 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC2F41B32AA5832D00B80C6D /* ViewController.swift in Sources */,
+				DC5CBC422AA58A9E0010BDD8 /* StarCell.swift in Sources */,
 				DC2F41AF2AA5832D00B80C6D /* AppDelegate.swift in Sources */,
 				DC2F41B12AA5832D00B80C6D /* SceneDelegate.swift in Sources */,
+				DC5CBC3E2AA588BA0010BDD8 /* DiaryCell.swift in Sources */,
+				DC5CBC402AA5890C0010BDD8 /* StarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
