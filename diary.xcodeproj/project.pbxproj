@@ -20,6 +20,7 @@
 		DC5CBC3E2AA588BA0010BDD8 /* DiaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5CBC3D2AA588BA0010BDD8 /* DiaryCell.swift */; };
 		DC5CBC402AA5890C0010BDD8 /* StarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5CBC3F2AA5890C0010BDD8 /* StarViewController.swift */; };
 		DC5CBC422AA58A9E0010BDD8 /* StarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5CBC412AA58A9E0010BDD8 /* StarCell.swift */; };
+		DC5CBC442AA58CC30010BDD8 /* WriteDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5CBC432AA58CC30010BDD8 /* WriteDiaryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		DC5CBC3D2AA588BA0010BDD8 /* DiaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryCell.swift; sourceTree = "<group>"; };
 		DC5CBC3F2AA5890C0010BDD8 /* StarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarViewController.swift; sourceTree = "<group>"; };
 		DC5CBC412AA58A9E0010BDD8 /* StarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarCell.swift; sourceTree = "<group>"; };
+		DC5CBC432AA58CC30010BDD8 /* WriteDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteDiaryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				DC5CBC3D2AA588BA0010BDD8 /* DiaryCell.swift */,
 				DC5CBC3F2AA5890C0010BDD8 /* StarViewController.swift */,
 				DC5CBC412AA58A9E0010BDD8 /* StarCell.swift */,
+				DC5CBC432AA58CC30010BDD8 /* WriteDiaryViewController.swift */,
 			);
 			path = diary;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC2F41B32AA5832D00B80C6D /* ViewController.swift in Sources */,
+				DC5CBC442AA58CC30010BDD8 /* WriteDiaryViewController.swift in Sources */,
 				DC5CBC422AA58A9E0010BDD8 /* StarCell.swift in Sources */,
 				DC2F41AF2AA5832D00B80C6D /* AppDelegate.swift in Sources */,
 				DC2F41B12AA5832D00B80C6D /* SceneDelegate.swift in Sources */,
